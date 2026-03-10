@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Memorandum on Women's Safety in Police Procedures — Broseph Foundation</title>
   <meta name="description" content="A call for procedural reforms to protect women complainants in Karnataka police stations and courts. Sign the memorandum in person at the Broseph Foundation, Bengaluru.">
+
+  <!-- Open Graph / WhatsApp / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ishanjalan.github.io/memorandum-sba/">
+  <meta property="og:title" content="Memorandum on Women's Safety in Police Procedures — Broseph Foundation">
+  <meta property="og:description" content="Broseph Foundation calls for procedural reforms to protect women complainants in Karnataka police stations and courts. Add your voice — sign the memorandum in Bengaluru.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Memorandum on Women's Safety in Police Procedures — Broseph Foundation">
+  <meta name="twitter:description" content="Broseph Foundation calls for procedural reforms to protect women complainants in Karnataka police stations and courts.">
+
   <style>
     *, *::before, *::after {
       box-sizing: border-box;
@@ -231,6 +241,34 @@
       margin-top: 0;
     }
 
+    /* ── Language switcher ── */
+    .lang-switcher {
+      background: var(--accent-dark);
+      padding: 0.5rem 1.5rem;
+      display: flex;
+      justify-content: flex-end;
+      max-width: 100%;
+    }
+
+    .lang-switcher a {
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 0.85rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 3px;
+      border: 1px solid rgba(255,255,255,0.3);
+    }
+
+    .lang-switcher a:hover,
+    .lang-switcher a.active {
+      color: #fff;
+      background: rgba(255,255,255,0.15);
+    }
+
+    .lang-switcher a + a {
+      margin-left: 0.5rem;
+    }
+
     /* ── Responsive ── */
     @media (max-width: 480px) {
       header {
@@ -241,9 +279,49 @@
         padding: 2.25rem 1.25rem;
       }
     }
+
+    /* ── Print ── */
+    @media print {
+      .lang-switcher { display: none; }
+
+      header {
+        background: #fff;
+        color: #000;
+        border-bottom: 3px solid var(--accent);
+        padding: 1.5rem;
+      }
+
+      header .org { color: var(--accent); }
+
+      .cta-section {
+        background: #fff;
+        color: #000;
+        border: 2px solid var(--accent);
+        border-radius: 4px;
+        margin-top: 2rem;
+      }
+
+      .address-card {
+        background: #f9f9f9;
+        border-color: #ccc;
+      }
+
+      .contact-links a { color: #000; }
+
+      .directions-link { display: none; }
+
+      .demand { break-inside: avoid; }
+
+      body { font-size: 11pt; }
+    }
   </style>
 </head>
 <body>
+
+  <nav class="lang-switcher" aria-label="Language">
+    <a href="index.html" class="active">English</a>
+    <a href="kannada.html">ಕನ್ನಡ</a>
+  </nav>
 
   <header>
     <p class="org">Broseph Foundation</p>
@@ -342,7 +420,7 @@
   <section class="cta-section">
     <div class="cta-inner">
       <h2>Add Your Voice — Sign the Memorandum in Person</h2>
-      <p class="cta-subtitle">Visit us at the address below during office hours to add your signature and support these reforms.</p>
+      <p class="cta-subtitle">Visit us at the address below to add your signature and support these reforms.</p>
 
       <div class="address-card">
         <p class="address-main">Broseph Foundation</p>
