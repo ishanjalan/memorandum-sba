@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memorandum on Women's Safety in Police Procedures — Broseph Foundation</title>
+  <meta name="description" content="A call for procedural reforms to protect women complainants in Karnataka police stations and courts. Sign the memorandum in person at the Broseph Foundation, Bengaluru.">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --accent: #7B2D8B;
+      --accent-dark: #5a1f68;
+      --accent-light: #f3e8f7;
+      --bg: #FAFAFA;
+      --text: #1a1a1a;
+      --text-secondary: #444;
+      --border: #ddd;
+      --max-width: 720px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.7;
+    }
+
+    /* ── Header / Hero ── */
+    header {
+      background: var(--accent);
+      color: #fff;
+      padding: 3.5rem 1.5rem 3rem;
+      text-align: center;
+    }
+
+    header .org {
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 1rem;
+    }
+
+    header p.subtitle {
+      font-size: 1.05rem;
+      opacity: 0.9;
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    /* ── Main content wrapper ── */
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* ── Section headings ── */
+    .section-label {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 1.4rem;
+      color: var(--accent);
+      margin: 3rem 0 1.25rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 2px solid var(--accent-light);
+    }
+
+    /* ── Demand cards ── */
+    .demands {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .demand {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      border-radius: 4px;
+      padding: 1.1rem 1.25rem;
+    }
+
+    .demand-header {
+      display: flex;
+      align-items: baseline;
+      gap: 0.75rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .demand-number {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--accent);
+      flex-shrink: 0;
+      min-width: 1.6rem;
+    }
+
+    .demand-title {
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--text);
+    }
+
+    .demand-body {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      padding-left: 2.35rem;
+    }
+
+    /* ── Government request block ── */
+    .govt-request {
+      background: var(--accent-light);
+      border: 1px solid #d4b0e0;
+      border-radius: 4px;
+      padding: 1.25rem 1.5rem;
+      margin-top: 1.25rem;
+      color: var(--text);
+      font-size: 0.97rem;
+    }
+
+    /* ── CTA / Sign section ── */
+    .cta-section {
+      background: var(--accent-dark);
+      color: #fff;
+      margin: 3rem -1.5rem 0;
+      padding: 3rem 1.5rem;
+    }
+
+    .cta-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .cta-section h2 {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: clamp(1.3rem, 3.5vw, 1.8rem);
+      font-weight: 700;
+      margin-bottom: 0.6rem;
+    }
+
+    .cta-section .cta-subtitle {
+      opacity: 0.9;
+      margin-bottom: 1.75rem;
+      font-size: 1rem;
+    }
+
+    .address-card {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 6px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .address-card p {
+      margin-bottom: 0.3rem;
+      font-size: 0.97rem;
+    }
+
+    .address-card .address-main {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .address-card .address-note {
+      opacity: 0.8;
+      font-size: 0.9rem;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .contact-links a {
+      color: #f3c4ff;
+      text-decoration: none;
+      font-size: 0.97rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .contact-links a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    .directions-link {
+      display: inline-block;
+      background: #fff;
+      color: var(--accent-dark);
+      font-weight: 600;
+      padding: 0.65rem 1.5rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 0.97rem;
+      transition: background 0.15s;
+    }
+
+    .directions-link:hover {
+      background: var(--accent-light);
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      font-size: 0.85rem;
+      color: #888;
+      border-top: 1px solid var(--border);
+      margin-top: 0;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 480px) {
+      header {
+        padding: 2.5rem 1rem 2rem;
+      }
+
+      .cta-section {
+        margin: 3rem -1.5rem 0;
+        padding: 2.25rem 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <p class="org">Broseph Foundation</p>
+    <h1>Memorandum on Women's Safety in Police Procedures</h1>
+    <p class="subtitle">A call for procedural reforms to protect women complainants in Karnataka police stations and courts</p>
+  </header>
+
+  <main>
+
+    <h2 class="section-label">Our Nine Demands</h2>
+
+    <ol class="demands">
+
+      <li class="demand">
+        <div class="demand-header">
+          <span class="demand-number">1.</span>
+          <span class="demand-title">Protection of personal information in police complaints</span>
+        </div>
+        <p class="demand-body">Women who file complaints at police stations must have their personal information — including home address, workplace, and contact details — kept strictly confidential. This information must not be shared with the accused or any third party without the complainant's explicit consent.</p>
+      </li>
+
+      <li class="demand">
+        <div class="demand-header">
+          <span class="demand-number">2.</span>
+          <span class="demand-title">Strict disciplinary action for leakage of complainants' personal information</span>
+        </div>
+        <p class="demand-body">Any police officer found to have disclosed the personal information of a woman complainant to the accused or their associates must face prompt and strict departmental and legal action. Clear accountability mechanisms must be established and enforced.</p>
+      </li>
+
+      <li class="demand">
+        <div class="demand-header">
+          <span class="demand-number">3.</span>
+          <span class="demand-title">Prohibition on forcing victims to confront accused persons for "settlements"</span>
+        </div>
+        <p class="demand-body">Women complainants must not be compelled or pressured to meet the accused in person at police stations or elsewhere for the purpose of reaching informal settlements. Such practices cause further trauma and undermine the complainant's right to justice.</p>
+      </li>
+
+      <li class="demand">
+        <div class="demand-header">
+          <span class="demand-number">4.</span>
+          <span class="demand-title">Prioritisation of FIR registration instead of pressured settlements</span>
+        </div>
+        <p class="demand-body">Police officers must register First Information Reports (FIRs) promptly when a cognisable offence is disclosed, without steering complainants towards informal or out-of-court settlements. The law must be applied without bias or delay.</p>
+      </li>
+
+      <li class="demand">
+        <div class="demand-header">
+          <span class="demand-number">5.</span>
+          <span class="demand-title">Avoiding unnecessary involvement of women's family members or workplaces</span>
+        </div>
+        <p class="demand-body">Investigations must be conducted without unnecessarily contacting or involving the complainant's family members, employer, or colleagues, unless directly relevant to the case and with the complainant's knowledge. Such contact often results in secondary victimisation and social harm.</p>
+      </li>
+
+      <li class="demand">
+        <div class="demand-header">
+          <span class="demand-number">6.</span>
+          <span class="demand-title">Police assistance in arranging Mahazar witnesses</span>
+        </div>
+        <p class="demand-body">When a Mahazar (panchnama) is required, the police must take responsibility for arranging independent and impartial witnesses. Women complainants must not be burdened with producing their own witnesses, which places an unfair and often impossible obligation on them.</p>
+      </li>
+
+      <li class="demand">
+        <div class="demand-header">
+          <span class="demand-number">7.</span>
+          <span class="demand-title">Written notice before summoning women to police stations</span>
+        </div>
+        <p class="demand-body">Women must be given advance written notice whenever they are required to appear at a police station, stating the reason for their presence, the name and rank of the officer concerned, and the expected date and time. Verbal or informal summons must be discontinued.</p>
+      </li>
+
+      <li class="demand">
+        <div class="demand-header">
+          <span class="demand-number">8.</span>
+          <span class="demand-title">Timely information regarding court appearances</span>
+        </div>
+        <p class="demand-body">Investigating officers must ensure that women complainants and witnesses receive timely and accurate information about scheduled court hearings in which they are required to appear. Last-minute notices cause unnecessary hardship and can prejudice the complainant's participation in justice proceedings.</p>
+      </li>
+
+      <li class="demand">
+        <div class="demand-header">
+          <span class="demand-number">9.</span>
+          <span class="demand-title">Coordination between investigating officers and public prosecutors</span>
+        </div>
+        <p class="demand-body">Investigating officers must maintain regular and effective coordination with the assigned public prosecutor throughout the trial. Poor communication between these two arms of the state is a common cause of preventable lapses that weaken prosecution and harm victims.</p>
+      </li>
+
+    </ol>
+
+    <h2 class="section-label">Specific Request to the Government</h2>
+
+    <div class="govt-request">
+      <p>We respectfully urge the <strong>Home Department, Government of Karnataka</strong> to issue an official circular to all police stations, district superintendents of police, and investigative authorities across Karnataka, incorporating the nine safeguards listed above as standard operating procedure. This circular must establish clear accountability, reporting mechanisms, and consequences for non-compliance, so that women who approach the state for protection receive the dignified, safe, and impartial treatment they are entitled to under the law.</p>
+    </div>
+
+  </main>
+
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>Add Your Voice — Sign the Memorandum in Person</h2>
+      <p class="cta-subtitle">Visit us at the address below during office hours to add your signature and support these reforms.</p>
+
+      <div class="address-card">
+        <p class="address-main">Broseph Foundation</p>
+        <p>No. 2, 5th Cross Michaelpalya, 80 Feet Road</p>
+        <p>Indiranagar, Bengaluru – 560038</p>
+        <p class="address-note" style="margin-top: 0.6rem;">Near CV Raman Hospital</p>
+        <p class="address-note">Metro: Swami Vivekananda Road station (approx. 500 m)</p>
+      </div>
+
+      <div class="contact-links">
+        <a href="tel:+918025252925">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.72 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.63 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.29 6.29l.98-.98a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          +91-80-25252925
+        </a>
+        <a href="mailto:info@broseph.in">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          info@broseph.in
+        </a>
+      </div>
+
+      <a class="directions-link" href="https://broseph.in/contact.html" target="_blank" rel="noopener noreferrer">Get full directions &rarr;</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; Broseph Foundation, Bengaluru. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
